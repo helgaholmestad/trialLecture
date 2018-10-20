@@ -1,0 +1,8 @@
+Solar eclipse målingen i 1919.
+Predictions by just using the weak equvalence principle over a large area will give the same prediction as Newton. But then the weak equivalence principle was used over a large area, and it only works locally. Therefore the predictions where wrong, but GR predicted the angle to be twice as large. Therefore this solar eclipse was the test of GR. 
+Skyldes feilen som ble gjort i målingen av vinkel ved å kun bruke det svake ekvivalensprinsippet at man kun tenkte lokalt. Det vil at man ikke tok hensyn til at eqvivalenceprinsippet 
+
+
+Husk: Inertia: a property of matter by which it continues in its existing state of rest or uniform motion in a straight line, unless that state is changed by an external force.
+"the power required to overcome friction and the inertia of the moving parts"
+That is why we call free fall the inertial reference frame

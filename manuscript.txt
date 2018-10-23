@@ -1,18 +1,159 @@
-Slide 1.
+In the beginning of the 20the centery it was generally accepted that light was actually waves. It was thought that these light waves travelled through what was known as the ether. The ether was thought about as a medium that filled up all space and that all objects were moving relative to this ether.
+The famous Michelseon and Morely experiment tried to measure the relative motion of the earth through the ether by measuring the speed of light in different directions. As we know today, they measured that the speed of light was the same in all directions.
+The idea of the ether also meant that Maxwells equations for electromagnetism somehow had to take into account the movement relative to the ether, and no good way to include this in the equations was found.
+This was one of the large unsolved problems in physics at that time.
+
+In 1905 Einstein proposed his special theory of relativity as a solution to this problem. This theory abonded the idea of the ether, postulated that light was travelling at the same speed in all reference frame and as a result abonded the idea of absolute simultanity.
+
+The theory of special relativity is based upon two postulates, that the laws of physics are the same in all inertial reference frames and that as already saied: that the speed of light is the same in all reference frames.
+That the idea of simulanioty not being absolute was dependent upon the reference frame was completly new at the time, and in his article "Zur Elektrodynamik bewegter Körper", ON THE ELECTRODYNAMICS OF MOVING BODIES, he actually devotes the three first pages to define what is meant by  syncronised clocs and simultaniously.
+He defines syncronized clocks in the follwing way.
+
+If the clocs where syncronised, and one of them starts walking really fast. Then they will not be syncronized any more. 
+
+The same realization that simultanious depends upon the reference frame is also present if we observe a reference fram that is moving relative to us. This is a very standard example. 
+
+
+
+
+
+
+ Up until the theory of special relativity, gravity had been looked upon as something that just filled the whole space and had an immidiate effect, if you moved a mass the effect should take place immidiatly.
+But special relativity had abounded the idea of simultanous, and if an effect was immidiate in one reference frame, in another reference frame the effect could take place before the cause.
+
+(If two events are spacelike separated, it is not clear what happens first, it depends upon the reference frame. Cause and effect would be then spacelike separated, think about the horisontal line in the minkowski diagram)
+
+This meant that SR was contradiction the how one usually thought about gravity at that time. This was one of the main motivating factors for developing a new theory for gravity.
+
+
+
+
+
+
+
+
+
+
+
 Now we start on general relativity. As seen a tackyon can move faster than light, and therefore also arrive before it left.
 According to special relativity, a tachyon can move faster than light and therefore arrive before it comes back. Tackyons have never been seen. What about gravity. Accoring to Newton, gravity spreads out instantaniously. But according to special relativity, this would mean that cause came before effect in another system. This should not be possible. That was why Einstin though that a new theory of gravity was needed, and as we all know he came of with what today is known as the general theory of relativity.
-In 1907 Einstein had what he himself described as the happiest thought of his life. If someone is in free fall, then no forces are acting on it. Is there then any difference between being in an accelerated elevator (or accelerated reference system) in space and being in a gravitational field. 
+
+
+Slide 7
+
+According to Newtons the force of gravity is instantanous, the effect of gravity is instantanious. Combined with special relativity, this would mean that a change in gravitational potential could be noticed before the mass creating the potential existed? Something was abvoulsy wrong, and a new theory of gravity was needed. 
+
+In 1907 Einstein had what he himself described as the happiest thought of his life. He realized that if someone is in free fall, then no forces are acting on then. So maybe free fall should be our inertial frame of reference, and constant speed was just a special case of this given that there were no gravity. And when we stand still on the ground it is because we are resisting our inertial motion. 
+In other words, there should be no difference between being in an accelerated elevator (or accelerated reference system) in space and being in a gravitational field.
+This has later become known as Einsteins equivalence principle. 
 This was a sort of extension on what had been long known that two masses would fall with the same accelration, this was shown already in the 1700th centery by Galileo. This is known as the weak eqvivalence principle.
 
-Slide 2
-That gravity can be described as just accelration can only be true locally.
-Lets assume you have an enourmesly large labratorium in space out in the atmosphere of Mars. If your lab is large enough you will notice a difference.
+
+
+Slide 8
+That gravity can be described as just psudo force du to accelration can only be true locally.
+
+Lets assume you have a labratorium in space close to a planet, for instance Mars. If your lab is large enough you will notice a difference.
 Consider what happens if you drop two balls. They will both fall towards the center of Mars. If your lab is large enough it will look like a force is pulling them towards eachother.
-Lets take the two balls back to earth, and let us also imagine that the world is a perfect sphere and frictionless. Then take the two balls to the equatior two places far apart from eachother, for instance Brazil and Kenya. If you throw the ballsin a straight line aiming at the north pole they will follow the the longitudional lines. This means that locally they will follow straight lines, but as seen from space it looks like they are gravitating towards eachother. 
+Lets take the two balls back to earth, and let us also imagine that the world is a perfect sphere and frictionless. Then take the two balls to the equatior two places far apart from eachother, for instance Brazil and Kenya. If you push the balls in a straight line aiming at the north pole they will follow the the longitudional lines. This means that locally they will follow straight lines, but as seen from space it looks like they are gravitating towards eachother. 
 This realizaition motivated the describing gravity as a geometrical effect. 
+
+
+Slide 9
+
+Motivated by these realizations Einstein developed a theory of gravity, what we today know as the general theory of relativity, that described spacetime as a manifold. A manifold is a space that locally is flat, but on larger scale has some curvature. The surface of a sphere is a simple example of a manifold. Unless you are a member of the "flat earth society" you know that the earth is round. But locally it looks completly flat. And our every day desicions can be taken by assuming that the earth is flat.
+In a simular way general relativity describes spacetime as a manifold that locally can be described as a free falling coordinate sysem, meaning that the eqvivalence principle holds locally. On a large scale spacetime is curved, and this curvature is what we call gravity. According to this description we don't actually notice gravity in our everyday life, we only notice it because we earth is massive and we ar stopped from our free falling.  
+Describing spacetime as a manifold gave the theory the mathematical framework of tensor analysis. 
+
+A tensor is a matematical object that is more general than a matrix, and was invented to describe phyiscal quanteties that we would otherwise not be able to describe.
+(For instance you can describe a direction with a vector, but if something is happening in in the x,y and z direction as you move in the x direction, this can be described as a tensor. Then again you need a vector for each component of the original vector.)
+Tensors are important in general relativity because a tensor equation that is true in one reference frame is also true in all reference frames, because of the way tensors transform.
+(Transformation laws of tensors are such that an equation that is true in one frame of reference is true in all frames of reference. )
+
+
+
+
+
+
+Slide 4.
+
+
+This description of space as the manifold described, and requireing that Newtons laws of gravitiotion is fullfilled  on earth gives the Einsteins field equations, as you see here.
+Einstins field equations is the only equation that fullfilles the equivalence principle in all its forms, and is in accordance with Newtons laws in earts gravitational field.
+The field equation relates the curvature of the spacetime with the energy and thereunder the mass in it. 
+
+When solving this equation what one is interested in finding is the metric (g_mn). 
+
+We are interested in the metric because the metric desribes the curvature of spacetime, and is what we can feed into the geodesic equation in order to find where the geodesics of spacetime is.
+Solving the geodesics equations gives the relationship between the spacetime coordinates that a geodesic follows. 
+
+Just as on the earth surface geodesics in spacetime is the shortest distance between two points, and is the path that an object not influenced by any forces will follow. 
+
+The metric gives you the distance between two points.
+Back to the sphere. On a sphere the metric gives you the distance you would travel if you go a small distance in the longituial direction and then the same small distance in the transverse direction. The formula for the distnace travelled then gives you the metric.
+
+
+The Einstein field equations can only be solved when some simplification of what you want to include on the right side id done. The most important solution is the Schwarzshild solution that describes the curved spacetime outside a spherical mass. This solution also showed that there is a singularity in the metric all the mass of the sphere is condensed within a radius smaller than the Schwarzshild radius. 
+This has later been known as the event horizon of a black hole. 
+
+
+
+This function is the input to the geodesic equation that describes the geodesics, that means the shortest way between two points.
+The important thing is that the metric is what you need to feed the geodesic equation in order to find the geodesics. The geodesics is the shortest distance between two points, and is also the path that an object that is not subject to any force would travel. In short the solution of the Einstein field equation gives you what you need to solve the geodesics equation which again gives you how objects will travel in spacetime. 
+
+
+The left side of the equation is actually just a function of what is called the metric(g_mn).The metric of the geometry gives you the distance between two points. The Ricci curvature tensor is actually just a complicated function of the metric. 
+
+
+For instance on a sphere the metric gives you infinitly small distance you travlel if you go an infinitly small distance in the longituial direction and then an infintly small distance in the the distance 
+This function is the input to the geodesic equation that describes the geodesics, that means the shortest way between two points.
+The important thing is that the metric is what you need to feed the geodesic equation in order to find the geodesics. The geodesics is the shortest distance between two points, and is also the path that an object that is not subject to any force would travel. In short the solution of the Einstein field equation gives you what you need to solve the geodesics equation which again gives you how objects will travel in spacetime. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This description of space as the manifold described, and requireing that Newtons laws of gravitiotion is fullfilled  on earth gives the Einsteins field equations, as you see here.
+Einstins field equations is the only equation that fullfilles the equivalence principle in all its forms, and is in accordance with Newtons laws in earts gravitational field.
+The field equation relates the curvature of the spacetime with the energy and thereunder the mass in it. 
+
+When solving this equation what one is interested in finging is the metric (g_mn). 
+The left side of the equation is actually just a function of what is called the metric(g_mn).The metric of the geometry gives you the distance between two points. The Ricci curvature tensor is actually just a complicated function of the metric. 
+
+We are interested in The metric of the geometry gives you the distance between two points.
+For instance on a sphere the metric gives you infinitly small distance you travlel if you go an infinitly small distance in the longituial direction and then an infintly small distance in the the distance 
+This function is the input to the geodesic equation that describes the geodesics, that means the shortest way between two points.
+The important thing is that the metric is what you need to feed the geodesic equation in order to find the geodesics. The geodesics is the shortest distance between two points, and is also the path that an object that is not subject to any force would travel. In short the solution of the Einstein field equation gives you what you need to solve the geodesics equation which again gives you how objects will travel in spacetime. 
+
+
+For instance on a sphere the metric gives you infinitly small distance you travlel if you go an infinitly small distance in the longituial direction and then an infintly small distance in the the distance 
+This function is the input to the geodesic equation that describes the geodesics, that means the shortest way between two points.
+The important thing is that the metric is what you need to feed the geodesic equation in order to find the geodesics. The geodesics is the shortest distance between two points, and is also the path that an object that is not subject to any force would travel. In short the solution of the Einstein field equation gives you what you need to solve the geodesics equation which again gives you how objects will travel in spacetime. 
+
+
+
+
+"Mass tells space-time how to curve, and space-time tells mass how to move."
 
 
 Slide 3
 
 
-The metric of a geometry can be though of as a function that describes how to find the shortest way between two points in that geometry. This function is the input to the geodesic equation that describes the geodesics, that means the shortest way between different 
+
+
+
+
+
+Why is the equivalence between inertial and gravitational mass so important.
+The force needed to accelerate a particle is proportional to the force created by the interaction between the particles and the mass. The Einstein field equations is only dependent upon the metric, and therefore combines newtons mekanics into one equation. You don't first need to make the potential and then find out how the particles move in this potential. 

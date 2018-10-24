@@ -49,8 +49,6 @@
   bottom color=green!10!white,middle color=green!50!yellow},
   fuzzy halo=1pt with green,drop large lifted shadow}
 
-
-
 %
 % Choose how your presentation looks.
 %
@@ -171,60 +169,50 @@
       \begin{itemize}
         \item<3->{Ground-breaking new ideas}
         \begin{itemize}
-        \item<3->{Space and time is not independent}
+        \item<3->{Space and time is not independent (spacetime)}
         \item<3->{Simulationous depends upon reference frames}
-        \item<7->{Synchronize if:$t_b-t_a=t_c-t_b$}
+        %\item<7->{Synchronize if:$t_b-t_a=t_c-t_b$}
         \end{itemize}
         \end{itemize}
          \end{column}
   \end{columns}  
   \begin{center}
     \begin{tikzpicture}
-        \visible<4,5,6,7>{\node at (-2,0)(man1) {\includegraphics[width=1cm]{fig/streken.png}};  
-        \node at (2,0)(man2) {\includegraphics[width=1cm]{fig/streken.png}};  
-        \node at (-2,1){A};  
-        \node at (2,1){B};
-        }
-        \visible<5>{\path[light] ($(man1)+(4.5mm,1mm)$)--($(man2)+(-4.5mm,1mm)$);}
-        \visible<5,6,7>{
-        \node at (-2,-1.0){$t_a$};  
-        \node at (2,-1.0){$t_b$};
-      }
-        \visible<6>{\path[light] ($(man2)+(-4.5mm,1mm)$)--($(man1)+(4.5mm,1mm)$);}
-        \visible<6,7>{\node at (-2,-1.4){$t_c$};  
-        }
+        %\visible<4,5,6,7>{\node at (-2,0)(man1) {\includegraphics[width=1cm]{fig/streken.png}};  
+        %\node at (2,0)(man2) {\includegraphics[width=1cm]{fig/streken.png}};  
+        %\node at (-2,1){A};  
+        %\node at (2,1){B};
+        %}
+        %\visible<5>{\path[light] ($(man1)+(4.5mm,1mm)$)--($(man2)+(-4.5mm,1mm)$);}
+        %\visible<5,6,7>{
+        %\node at (-2,-1.0){$t_a$};  
+        %\node at (2,-1.0){$t_b$};
+      %}
+       % \visible<6>{\path[light] ($(man2)+(-4.5mm,1mm)$)--($(man1)+(4.5mm,1mm)$);}
+        %\visible<6,7>{\node at (-2,-1.4){$t_c$};  
+        %}
         
-
-          %\visible<4>{\node[text width=4cm] at (0,-1.5){Synchronize if:\\$t_b-t_a=t_c-t_b$};}}
-            \visible<8,9>{
+            \visible<4,5>{
               \def\x{3}
               \def\h{0}
               \def\xn{-2}
               \def\hn{-2}
               
-             % \node at (1,1.2) {\includegraphics[width=0.25\textwidth]{fig/streken.png}};
-             % \path[lineP,green, line width=0.3cm] (-1,\hn-0.12cm)--(3,\hn-0.12cm);
-             % \node at (1,1.2) {\includegraphics[width=0.25\textwidth]{fig/streken.png}};
-              %\path[lineP] (\hn,\xn)--(\xn,\h);
-              %\path[lineP] (\xn,\h)--(\x,\h);
-              %\path[lineP] (\x,\h)--(\x,\hn);
-              %\path[lineP] (\xn,\hn)--(\x,\hn);
               \node at (0.5,-1.2) {\includegraphics[width=1cm]{fig/streken.png}};
               \draw[ultra thick] (-1,-2.0) circle (0.3cm);
               \draw[ultra thick] (2,-2.0) circle (0.3cm);
               \filldraw[lineP, fill=white, draw=black] (\hn,\xn)--(\xn,\h)--(\xn,\h)--(\x,\h)--(\x,\h)--(\x,\hn)-- (\xn,\hn)--(\x,\hn);
               \node at (0.5,-1.2)(midtrain) {\includegraphics[width=1cm]{fig/streken.png}};
             }
-            \visible<9,10>{\path[light] ($(midtrain)+(3mm,1mm)$)--($(midtrain)+(25.5mm,1mm)$);}
-            \visible<9,10>{\path[light] ($(midtrain)+(-3mm,1mm)$)--($(midtrain)-(25.5mm,-1mm)$);}
-              %\draw[ultra thick] (1,0.0) circle (0.3cm);
-              %\draw[ultra thick] (4,0.0) circle (0.3cm);
-            \visible<10->{
+            \visible<5,6>{\path[light] ($(midtrain)+(3mm,1mm)$)--($(midtrain)+(25.5mm,1mm)$);}
+            \visible<5,6>{\path[light] ($(midtrain)+(-3mm,1mm)$)--($(midtrain)-(25.5mm,-1mm)$);}
+           
+            \visible<6->{
               \def\x{4}
               \def\h{0}
               \def\xn{-1}
               \def\hn{-2}
-%              \node at (0.5,-1.2) {\includegraphics[width=1cm]{fig/streken.png}};
+%          
               \draw[ultra thick] (0,-2.0) circle (0.3cm);
               \draw[ultra thick] (3,-2.0) circle (0.3cm);
               \filldraw[lineP, fill=white, draw=black] (\xn,\hn)--(\xn,\h)--(\xn,\h)--(\x,\h)--(\x,\h)--(\x,\hn)-- (\xn,\hn)--(\x,\hn);
@@ -243,8 +231,7 @@
 \begin{frame}{\centering Lorentz transformation}
  % \begin{columns}
  %   \begin{column}{0.5\textwidth}
-      Assuming the two postulates, the transformations between two inertial reference frames moving with a velocity $v$ relative to eachoter
-      in the x-direction is given by the Lorentz transformations.
+      The transformations between two inertial reference frames moving with a velocity $v$ relative to eachoter is given by the Lorentz transformations. At t'=t=0 the origins of the two cordinates systems are the same.  
       \begin{empheq}[box=\tcbhighmath]{align*}
         t'&=\gamma(t-vx/c²)\\
         x'&=\gamma(x-vt)\\
@@ -252,7 +239,7 @@
         z'&=z\\
         \text{where}&:\\
         c&=\text{Speed of light}\\
-        \gamma&=\frac{1}{\sqrt{(1-v²/c²)}}
+        \gamma&=\frac{1}{\sqrt{(1-v²/c²)}}\\
       \end{empheq}
   %    \end{column}
   \end{frame}
@@ -270,8 +257,8 @@
     \gamma&=2\\
     x_1&=\text{Back of the carpet}\\
     x_2&=\text{Front of the carpet}\\
-    t_1&=\text{Start of flight}\\
-    t_2&=\text{End of flight}\\
+    \visible<7->{ t_1&=\text{Start of flight}\\
+    t_2&=\text{End of flight}\\}
       \end{empheq}
     \end{column}
     \begin{column}{0.35\textwidth}
@@ -286,7 +273,7 @@
     \end{column}
     \begin{column}{0.35\textwidth}
       \tiny
-      \only<7,8>{
+      \only<8,9>{
       \begin{empheq}[box=\tcbhighmath]{align*}
         t'_2-t'_1&=\gamma(t_2-v\frac{x_2}{c^2})-\gamma(t_1-v\frac{x_1}{c^2})\\
         x_1&=vt_1,~~~x_2=vt_2\\
@@ -298,7 +285,7 @@
   \end{columns}
   %\begin{center}
     \begin{tikzpicture}
-      \visible<1,2,3,4,6,7,8>{\node at (0,3.5){\includegraphics[width=2.5cm,height=2.0cm]{fig/magic.png}};
+      \visible<1,2,3,4,6,7,8,9>{\node at (0,3.5){\includegraphics[width=2.5cm,height=2.0cm]{fig/magic.png}};
       }
       \visible<2,3,4->{\draw [->, black,ultra thick] (-1,4.7) -- node[above,xshift=0cm]{\textbf{0.87c}} (1,4.7);}
 
@@ -306,12 +293,12 @@
       \linespread{0.1}
      \node[rectangle,draw,text centered, rounded corners,text width=2.0cm,fill=white] at (-5.5,2.5){\tiny{Flying on the magic carpet is the primed reference frame}};
       
-     \visible<3,4,5>{\node at (0,1.5){\includegraphics[width=1.0cm]{fig/streken.png}};
+     \visible<5>{\node at (0,1.5){\includegraphics[width=1.0cm]{fig/streken.png}};
    }
      \visible<5>{\node at (0,3.5){\includegraphics[width=1.5cm,height=2.0cm]{fig/magic.png}};}
      
-     \visible<6,7,8>{\node at (0,3.65){\includegraphics[width=0.3cm]{fig/strekenOnCarpet.png}};}
-     \visible<8>{\node[rectangle,draw,text centered, rounded corners,text width=2.0cm,fill=violet!50] at (2.5,3.5){\tiny{My two hour ride was only one hour(:}};
+     \visible<6,7,8,9>{\node at (0,3.65){\includegraphics[width=0.3cm]{fig/strekenOnCarpet.png}};}
+     \visible<9>{\node[rectangle,draw,text centered, rounded corners,text width=2.0cm,fill=violet!50] at (2.5,3.5){\tiny{My two hour ride was only one hour(:}};
      }
   \end{tikzpicture}
   %\end{center}
@@ -599,65 +586,132 @@
 \end{frame}
 
 
-\begin{frame}{Gravitational redshift}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      \begin{itemize}
-      %\item{Gravitational redshift can be understood just by the equivalence principle}
-      %\item{Hight above the floor when the elevator is free falling is y}
-      %\item{Now a light is emmitted from the bottom of the elevator}
-      %\item{If the elevator is accelerated the path the light has to travel becomes:$y'(y)=y+\frac{g}{2}\left(\frac{y}{c}\right)...$}
-      \item{Line segment $\lambda$}
-      \item{$y'(y+\lambda)=y+\lambda+\frac{g}{2}\left(\frac{y+\lambda}{c}\right)-y+\frac{g}{2}\left(\frac{y}{c}\right)=\lambda+\frac{gy\lambda}{c²}+\frac{1g\lambda^2}{2c^2}\approx \lambda+\frac{gy\lambda}{c²}$}
 
-      \item{As seen the the wavelength increases as a function of y, this is the gravitational redshift}
-      \item{The frequency of the lights can not be changed, because then the light would be fill up the elevator, more lightwaves in than out}
-      \item{In order to get all the waves out of the elevator the time also has to move faster at the top of the elevator}
-      \item{Gravitational time dilation, important for GPS clocs}
-        
-      %% \item{What happens to a length interval $\lambda$ in a gravitational field}
-      %% \item{Lets first assume the elevator is in free fall, then define the hight of the elevator at any point as y}
-      %% \item{A light beam travels from the bottom of the elevator to the point y}
-      %% \item{Let see how far the light has to travel to get to the same point y in the accelerated frame of reference}
-      %% \item{Now lets see what happens with an }
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{tikzpicture}
-        \def\x{2}
-        \def\h{4}
-        \def\xn{0}
-        \def\hn{0}
-        \only<1->{
-        \draw [draw=black,fill=blue!30!black] (-1,-1) rectangle (4,5);
+
+\begin{frame}{Gravitational redshift}
+  \begin{center}
+    \begin{tikzpicture}
+      \def\x{4}
+      \def\h{6}
+      \def\xn{-1}
+      \def\hn{0}
+      \only<1->{
+        \draw [draw=black,fill=blue!30!black] (-4,-1) rectangle (7,7);
         \draw [draw=black,fill=white] (\xn,\hn) rectangle (\x,\h);  
         \path[lineP] (\xn,\hn)--(\xn,\h);
         \path[lineP] (\xn,\h)--(\x,\h);
-         \path[lineP] (\x,\h)--(\x,\hn);
-         \path[lineP] (\xn,\hn)--(\x,\hn);
-         \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (3,0.5) {};
-         \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (2.2,1.5) {};
-         \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (-0.8,1.0) {};
-         \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (0,4.2) {};
-         \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (2.5,3.7) {};
-        }
-        \only<1>{
-         \node at (1,2.2) {\includegraphics[width=0.25\textwidth]{fig/streken.png}};
-}
-         
-        \only<2->{
-           \draw [decorate,decoration={brace,amplitude=10pt},rotate=0]
-           (1.0,3) -- (1.0,0) node [xshift=0.5cm,yshift=1.5cm] {\textbf{y}};
-        }
-        
-        \only<3>{
-          \path[light](1.0,0)--(1.0,3);
-       
-         }
-        \end{tikzpicture}
-    \end{column}
-  \end{columns}
+        \path[lineP] (\x,\h)--(\x,\hn);
+        \path[lineP] (\xn,\hn)--(\x,\hn);
+        %\node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (3,0.5) {};
+        \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (5.2,1.5) {};
+        \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (-2.8,2.0) {};
+      \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (0,6.0) {};
+      %\node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (2.5,3.7) {};
+    }
+    %\only<1>{
+    %  \node at (2,2.2) {\includegraphics[width=0.10\textwidth]{fig/streken.png}};
+    %}
+      \only<2>{
+        \path[draw](-1,3)--(0.1,3);
+        \path[draw](-1,3.5)--(1.9,3.5);
+        \draw [decorate,decoration={brace,amplitude=10pt},rotate=0]
+        (0.0,3) -- (0.0,0) node [xshift=0.5cm,yshift=1.5cm] {\tiny y};
+        \path[light](0.0,0)--(0.0,3);
+        \draw [decorate,decoration={brace,amplitude=10pt},rotate=0]
+        (1.8,3.5) -- (1.8,0) node [xshift=0.7cm,yshift=1.4cm] {\tiny y$+\lambda$};
+        \path[light](1.8,0)--(1.8,3.5);
+        \draw [decorate,decoration={brace,amplitude=2pt},rotate=0]
+        (-0.8,3.5) -- (-0.8,3) node [xshift=0.3cm,yshift=0.2cm] {\tiny $\lambda$};
+      }
+      
+      \only<3->{
+        \path[draw](-1,3.1)--(0.1,3.1);
+         \path[draw](-1,3.7)--(1.9,3.7);
+     \draw [decorate,decoration={brace,amplitude=10pt},rotate=0]
+      (0.0,3.1) -- (0.0,0) node [xshift=0.85cm,yshift=1.55cm] {\tiny y+$\frac{1}{2}a\frac{y^2}{c^2}$};
+      \path[light](0.0,0)--(0.0,3.1);
+      \draw [decorate,decoration={brace,amplitude=10pt},rotate=0]
+      (1.8,3.7) -- (1.8,0) node [xshift=1.15cm,yshift=1.45cm] {\tiny y$+\lambda\frac{1}{2}a\frac{(y+\lambda)^2}{c^2}$};
+      \path[light](1.8,0)--(1.8,3.7);
+      \draw [decorate,decoration={brace,amplitude=2pt},rotate=0]
+      (-0.8,3.7) -- (-0.8,3.1) node [xshift=0.55cm,yshift=0.3cm] {\tiny $\lambda+\frac{gy\lambda}{c²}$};
+
+      \filldraw[fill=yellow!70!red, draw=yellow!10!red,xshift=-0.3cm,scale=2] (0.5,0)--(0.6,-0.5)--(0.7,-0.1)--(0.8,-0.8)--(0.9,-0.1)--(1.0,-1.0)--(1.1,-0.1)--(1.2,-0.8)--(1.3,-0.1)--(1.4,-0.5)--(1.5,0);
+      }
+      \only<4->\node at (1,4.0) {\footnotesize Redshift depends upon y};
+    \end{tikzpicture}
+    \end{center}
 \end{frame}
+
+
+
+
+
+
+
+
+
+
+
+%% \begin{frame}{Gravitational redshift}
+%%   \begin{columns}
+%%     \begin{column}{0.5\textwidth}
+%%       \begin{itemize}
+%%       %\item{Gravitational redshift can be understood just by the equivalence principle}
+%%       %\item{Hight above the floor when the elevator is free falling is y}
+%%       %\item{Now a light is emmitted from the bottom of the elevator}
+%%       %\item{If the elevator is accelerated the path the light has to travel becomes:$y'(y)=y+\frac{g}{2}\left(\frac{y}{c}\right)...$}
+%%       \item{Line segment $\lambda$}
+%%       \item{$y'(y+\lambda)=y+\lambda+\frac{g}{2}\left(\frac{y+\lambda}{c}\right)-y+\frac{g}{2}\left(\frac{y}{c}\right)=\lambda+\frac{gy\lambda}{c²}+\frac{1g\lambda^2}{2c^2}\approx \lambda+\frac{gy\lambda}{c²}$}
+
+%%       \item{As seen the the wavelength increases as a function of y, this is the gravitational redshift}
+%%       \item{The frequency of the lights can not be changed, because then the light would be fill up the elevator, more lightwaves in than out}
+%%       \item{In order to get all the waves out of the elevator the time also has to move faster at the top of the elevator}
+%%       \item{Gravitational time dilation, important for GPS clocs}
+        
+%%       %% \item{What happens to a length interval $\lambda$ in a gravitational field}
+%%       %% \item{Lets first assume the elevator is in free fall, then define the hight of the elevator at any point as y}
+%%       %% \item{A light beam travels from the bottom of the elevator to the point y}
+%%       %% \item{Let see how far the light has to travel to get to the same point y in the accelerated frame of reference}
+%%       %% \item{Now lets see what happens with an }
+%%       \end{itemize}
+%%     \end{column}
+%%     \begin{column}{0.5\textwidth}
+%%       \begin{tikzpicture}
+%%         \def\x{2}
+%%         \def\h{4}
+%%         \def\xn{0}
+%%         \def\hn{0}
+%%         \only<1->{
+%%         \draw [draw=black,fill=blue!30!black] (-1,-1) rectangle (4,5);
+%%         \draw [draw=black,fill=white] (\xn,\hn) rectangle (\x,\h);  
+%%         \path[lineP] (\xn,\hn)--(\xn,\h);
+%%         \path[lineP] (\xn,\h)--(\x,\h);
+%%          \path[lineP] (\x,\h)--(\x,\hn);
+%%          \path[lineP] (\xn,\hn)--(\x,\hn);
+%%          \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (3,0.5) {};
+%%          \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (2.2,1.5) {};
+%%          \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (-0.8,1.0) {};
+%%          \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (0,4.2) {};
+%%          \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (2.5,3.7) {};
+%%         }
+%%         \only<1>{
+%%          \node at (1,2.2) {\includegraphics[width=0.25\textwidth]{fig/streken.png}};
+%% }
+         
+%%         \only<2->{
+%%            \draw [decorate,decoration={brace,amplitude=10pt},rotate=0]
+%%            (1.0,3) -- (1.0,0) node [xshift=0.5cm,yshift=1.5cm] {\textbf{y}};
+%%         }
+        
+%%         \only<3>{
+%%           \path[light](1.0,0)--(1.0,3);
+       
+%%          }
+%%         \end{tikzpicture}
+%%     \end{column}
+%%   \end{columns}
+%% \end{frame}
 
 
 %% \begin{frame}{Gravity and frequency of light and your GPS}
@@ -678,9 +732,9 @@
   \begin{columns}
     \begin{column}{0.5\textwidth}
      \begin{itemize}
-       \item{The equivalence principle predicts that light is being bent by gravitational fields}
-       \item{What happens to position of stars}
-       \item{This can be tested, when there is a solar eclipse}
+       \item{Light is being bent by gravitational fields}
+       %\item{What happens to position of stars}
+       %\item{This can be tested, when there is a solar eclipse}
        \end{itemize}
     \end{column}
     \begin{column}{0.5\textwidth}
@@ -708,10 +762,8 @@
          \node at (0.5,0.65) {\includegraphics[width=0.15\textwidth]{fig/streken.png}};
          }
         \only<1>{\draw[ultra thick,yellow] (0.75,0.75) parabola (1.8,0.75);}
-        \only<2>{\draw[ultra thick,yellow] (0.75,0.75) parabola (1.8,0.1);
-
+        \only<2>{\draw[ultra thick,yellow] (0.75,0.75) parabola (1.8,0.4);
         %\filldraw[fill=blue, draw=yellow, line width=3mm] (0, 0)-- (2, 1)--(0,2)--(1,1) circle;
-
           \filldraw[fill=yellow!70!red, draw=yellow!10!red] (0.5,0)--(0.6,-0.5)--(0.7,-0.1)--(0.8,-0.8)--(0.9,-0.1)--(1.0,-1.0)--(1.1,-0.1)--(1.2,-0.8)--(1.3,-0.1)--(1.4,-0.5)--(1.5,0);
           }
  \end{tikzpicture}
@@ -720,29 +772,34 @@
  \end{columns}
  \end{frame}
   
-\begin{frame}{Solar eclipse}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
+\begin{frame}{Testing the theory}
+  %\begin{columns}
+  %  \begin{column}{0.5\textwidth}
      \begin{itemize}
-       \item{Light is bent by the sun}
-       \item{Wrong position of stars}
-       \item{Only possible to see during a solor eclipse}
-       \item{Solar eclipse 1919}
-       \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-    \begin{itemize}
-    \item{No bending, Newton bending or general relativity bending}
-    \item{GR bending predicted by the Schwarzschild solution}
-    \item{Turned out that GR was right}
+       \item<1->{Bending of light by the sun might alter the position of stars}
+       %\item{Only possible to see during a solor eclipse}
+       \item{Solar eclipse 1919 was the ultimate test}
+    %   \end{itemize}
+         %  \end{column}
+         %  \begin{column}{0.5\textwidth}
+         % \begin{itemize}
+         \item{Three possible outcome}
+         \begin{itemize}
+         \item{No bending}
+         \item{Newton bending}
+         \item{Bending of light predicted by General relativity}
+         \end{itemize}
+       \item{Turned out that GR was right}
     \end{itemize}
-    \end{column}
-    \end{columns}
+  %  \end{column}
+  %  \end{columns}
 
   \begin{tikzpicture}
     \node[star, star points=5, minimum width=0.1cm,inner sep=1.0pt,anchor=outer point 3,star point ratio=3.25, fill=gray, draw] at (-1,3) {};
-    \draw [yellow] plot [smooth] coordinates {(0,0) (2,0.8) (4,1.1) (6,0.8) (10,0)};
-    \node at (2,0){\includegraphics[width=1cm]{fig/sun.png}};
+    \draw [yellow] plot [smooth] coordinates {(0,0) (2,0.1) (4,1.1) (6,0.8) (10,0)};
+    \draw [yellow] (0,0) --(10,0);
+    %\draw [yellow] plot [smooth] coordinates {(0,0) (2,0.8) (4,1.1) (6,0.8) (10,0)};
+    \node at (5,0){\includegraphics[width=1cm]{fig/sun.png}};
   \end{tikzpicture}
 
  \end{frame}

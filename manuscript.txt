@@ -1,3 +1,8 @@
+Solving the geodesics equations gives the relationship between the spacetime coordinates that a geodesic follows. 
+
+
+
+
 In the beginning of the 20the centery it was generally accepted that light was actually waves. It was thought that these light waves travelled through what was known as the ether. The ether was thought about as a medium that filled up all space and that all objects were moving relative to this ether.
 The famous Michelseon and Morely experiment tried to measure the relative motion of the earth through the ether by measuring the speed of light in different directions. As we know today, they measured that the speed of light was the same in all directions.
 The idea of the ether also meant that Maxwells equations for electromagnetism somehow had to take into account the movement relative to the ether, and no good way to include this in the equations was found.
@@ -108,14 +113,6 @@ The left side of the equation is actually just a function of what is called the 
 For instance on a sphere the metric gives you infinitly small distance you travlel if you go an infinitly small distance in the longituial direction and then an infintly small distance in the the distance 
 This function is the input to the geodesic equation that describes the geodesics, that means the shortest way between two points.
 The important thing is that the metric is what you need to feed the geodesic equation in order to find the geodesics. The geodesics is the shortest distance between two points, and is also the path that an object that is not subject to any force would travel. In short the solution of the Einstein field equation gives you what you need to solve the geodesics equation which again gives you how objects will travel in spacetime. 
-
-
-
-
-
-
-
-
 
 
 

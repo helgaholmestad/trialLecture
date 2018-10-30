@@ -41,8 +41,7 @@
 %\newtcbox{\mybox}{}
 
 
-\tcbset{highlight math style={colframe=red!60!black,colback=yellow!50!white,arc=4pt,boxrule=1pt,
-  }}
+\tcbset{highlight math style={colframe=red!60!black,colback=yellow!50!white,arc=4pt,boxrule=1pt,}}
 
 \newtcbox{\mybox}{math upper,tcbox raise base,
   enhanced,frame hidden,boxrule=0pt,interior style={top color=green!10!white,
@@ -115,7 +114,7 @@
     z={(0cm,1.2cm)}}
         }
 
-\title[]{Einsteins theory of relativity}
+\title[]{Einstein's theory of relativity}
 \author{Helga Holmestad}
 \institute{University of Oslo}
 \date{26/10-2018}
@@ -152,47 +151,70 @@
       \tikzstyle{lineP} = [draw, ultra thick]
       \tikzstyle{block} = [rectangle, draw, fill=blue, 
         text width=6.0cm, text centered, rounded corners, minimum height=1em]
-      
+
 \begin{frame}{\centering Special relativity}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      \begin{itemize}
-      \item<1->{The ether and Maxwells equations}
-      \item<2->{Two postulates }
-        \begin{itemize}
-        \item<2->{Laws of physics are the same in all inertial reference frames}
-        \item<2->{Speed of light is constant}
-        \end{itemize}
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{itemize}
-        \item<3->{Ground-breaking new ideas}
-        \begin{itemize}
-        \item<3->{Space and time is not independent (spacetime)}
-        \item<3->{Simulationous depends upon reference frames}
-        %\item<7->{Synchronize if:$t_b-t_a=t_c-t_b$}
-        \end{itemize}
-        \end{itemize}
-         \end{column}
-  \end{columns}  
+  %\begin{columns}
+  %  \begin{column}{0.5\textwidth}
+  \begin{itemize}
+  \item<1->{The ether and Maxwell's equations}
+  \item<2->{Einstein's two postulates }
+    \begin{itemize}
+    \item<2->{Laws of physics are the same in all inertial reference frames}
+    \item<2->{Speed of light is constant}
+    \end{itemize}
+    %\end{itemize}
+    % \end{column}
+    % \begin{column}{0.5\textwidth}
+    %  \begin{itemize}
+  \item<3->{Ground-breaking new ideas}
+    \begin{itemize}
+    \item<3->{Space and time is not independent (spacetime)}
+    \item<3->{Simultaneous depends upon reference frames}
+      %\item<7->{Synchronize if:$t_b-t_a=t_c-t_b$}
+    \end{itemize}
+  \end{itemize}
+  %%      %    \end{column}
+%%   %\end{columns}  
+%%   \begin{center}
+%%     \begin{tikzpicture}
+%%             \visible<4,5>{
+%%               \def\x{3}
+%%               \def\h{0}
+%%               \def\xn{-2}
+%%               \def\hn{-2}
+              
+%%               \node at (0.5,-1.2) {\includegraphics[width=1cm]{fig/streken.png}};
+%%               \draw[ultra thick] (-1,-2.0) circle (0.3cm);
+%%               \draw[ultra thick] (2,-2.0) circle (0.3cm);
+%%               \filldraw[lineP, fill=white, draw=black] (\hn,\xn)--(\xn,\h)--(\xn,\h)--(\x,\h)--(\x,\h)--(\x,\hn)-- (\xn,\hn)--(\x,\hn);
+%%               \node at (0.5,-1.2)(midtrain) {\includegraphics[width=1cm]{fig/streken.png}};
+%%             }
+%%             \visible<5,6>{\path[light] ($(midtrain)+(3mm,1mm)$)--($(midtrain)+(25.5mm,1mm)$);}
+%%             \visible<5,6>{\path[light] ($(midtrain)+(-3mm,1mm)$)--($(midtrain)-(25.5mm,-1mm)$);}
+           
+%%             \visible<6->{
+%%               \def\x{4}
+%%               \def\h{0}
+%%               \def\xn{-1}
+%%               \def\hn{-2}
+%% %          
+%%               \draw[ultra thick] (0,-2.0) circle (0.3cm);
+%%               \draw[ultra thick] (3,-2.0) circle (0.3cm);
+%%               \filldraw[lineP, fill=white, draw=black] (\xn,\hn)--(\xn,\h)--(\xn,\h)--(\x,\h)--(\x,\h)--(\x,\hn)-- (\xn,\hn)--(\x,\hn);
+%%               \node at (1.5,-1.2)(midt2) {\includegraphics[width=1cm]{fig/streken.png}};
+%%               \node at (0.5,-1.2)(midt2) {\includegraphics[width=1cm]{fig/strekengraa.png}};
+%%               \path[light] ($(midtrain)+(3mm,1mm)$)--($(midtrain)+(25.5mm,1mm)$);
+%%               \path[light] ($(midtrain)+(-3mm,1mm)$)--($(midtrain)-(25.5mm,-1mm)$);
+%%             }
+
+%%         \end{tikzpicture}
+%%       \end{center}
+\end{frame}
+
+\begin{frame}{Simultaneous is not what you think..}
   \begin{center}
     \begin{tikzpicture}
-        %\visible<4,5,6,7>{\node at (-2,0)(man1) {\includegraphics[width=1cm]{fig/streken.png}};  
-        %\node at (2,0)(man2) {\includegraphics[width=1cm]{fig/streken.png}};  
-        %\node at (-2,1){A};  
-        %\node at (2,1){B};
-        %}
-        %\visible<5>{\path[light] ($(man1)+(4.5mm,1mm)$)--($(man2)+(-4.5mm,1mm)$);}
-        %\visible<5,6,7>{
-        %\node at (-2,-1.0){$t_a$};  
-        %\node at (2,-1.0){$t_b$};
-      %}
-       % \visible<6>{\path[light] ($(man2)+(-4.5mm,1mm)$)--($(man1)+(4.5mm,1mm)$);}
-        %\visible<6,7>{\node at (-2,-1.4){$t_c$};  
-        %}
-        
-            \visible<4,5>{
+            \visible<1,2>{
               \def\x{3}
               \def\h{0}
               \def\xn{-2}
@@ -204,10 +226,10 @@
               \filldraw[lineP, fill=white, draw=black] (\hn,\xn)--(\xn,\h)--(\xn,\h)--(\x,\h)--(\x,\h)--(\x,\hn)-- (\xn,\hn)--(\x,\hn);
               \node at (0.5,-1.2)(midtrain) {\includegraphics[width=1cm]{fig/streken.png}};
             }
-            \visible<5,6>{\path[light] ($(midtrain)+(3mm,1mm)$)--($(midtrain)+(25.5mm,1mm)$);}
-            \visible<5,6>{\path[light] ($(midtrain)+(-3mm,1mm)$)--($(midtrain)-(25.5mm,-1mm)$);}
+            \visible<2,3>{\path[light] ($(midtrain)+(3mm,1mm)$)--($(midtrain)+(25.5mm,1mm)$);}
+            \visible<2,3>{\path[light] ($(midtrain)+(-3mm,1mm)$)--($(midtrain)-(25.5mm,-1mm)$);}
            
-            \visible<6->{
+            \visible<3->{
               \def\x{4}
               \def\h{0}
               \def\xn{-1}
@@ -224,19 +246,79 @@
 
         \end{tikzpicture}
       \end{center}
- \end{frame}
+\end{frame}
+
+%% \begin{frame}{\centering Special relativity}
+%%   \begin{columns}
+%%     \begin{column}{0.5\textwidth}
+%%       \begin{itemize}
+%%       \item<1->{The ether and Maxwell's equations}
+%%       \item<2->{Einstein's two postulates }
+%%         \begin{itemize}
+%%         \item<2->{Laws of physics are the same in all inertial reference frames}
+%%         \item<2->{Speed of light is constant}
+%%         \end{itemize}
+%%       \end{itemize}
+%%     \end{column}
+%%     \begin{column}{0.5\textwidth}
+%%       \begin{itemize}
+%%         \item<3->{Ground-breaking new ideas}
+%%         \begin{itemize}
+%%         \item<3->{Space and time is not independent (spacetime)}
+%%         \item<3->{Simulationous depends upon reference frames}
+%%         %\item<7->{Synchronize if:$t_b-t_a=t_c-t_b$}
+%%         \end{itemize}
+%%         \end{itemize}
+%%          \end{column}
+%%   \end{columns}  
+%%   \begin{center}
+%%     \begin{tikzpicture}
+%%             \visible<4,5>{
+%%               \def\x{3}
+%%               \def\h{0}
+%%               \def\xn{-2}
+%%               \def\hn{-2}
+              
+%%               \node at (0.5,-1.2) {\includegraphics[width=1cm]{fig/streken.png}};
+%%               \draw[ultra thick] (-1,-2.0) circle (0.3cm);
+%%               \draw[ultra thick] (2,-2.0) circle (0.3cm);
+%%               \filldraw[lineP, fill=white, draw=black] (\hn,\xn)--(\xn,\h)--(\xn,\h)--(\x,\h)--(\x,\h)--(\x,\hn)-- (\xn,\hn)--(\x,\hn);
+%%               \node at (0.5,-1.2)(midtrain) {\includegraphics[width=1cm]{fig/streken.png}};
+%%             }
+%%             \visible<5,6>{\path[light] ($(midtrain)+(3mm,1mm)$)--($(midtrain)+(25.5mm,1mm)$);}
+%%             \visible<5,6>{\path[light] ($(midtrain)+(-3mm,1mm)$)--($(midtrain)-(25.5mm,-1mm)$);}
+           
+%%             \visible<6->{
+%%               \def\x{4}
+%%               \def\h{0}
+%%               \def\xn{-1}
+%%               \def\hn{-2}
+%% %          
+%%               \draw[ultra thick] (0,-2.0) circle (0.3cm);
+%%               \draw[ultra thick] (3,-2.0) circle (0.3cm);
+%%               \filldraw[lineP, fill=white, draw=black] (\xn,\hn)--(\xn,\h)--(\xn,\h)--(\x,\h)--(\x,\h)--(\x,\hn)-- (\xn,\hn)--(\x,\hn);
+%%               \node at (1.5,-1.2)(midt2) {\includegraphics[width=1cm]{fig/streken.png}};
+%%               \node at (0.5,-1.2)(midt2) {\includegraphics[width=1cm]{fig/strekengraa.png}};
+%%               \path[light] ($(midtrain)+(3mm,1mm)$)--($(midtrain)+(25.5mm,1mm)$);
+%%               \path[light] ($(midtrain)+(-3mm,1mm)$)--($(midtrain)-(25.5mm,-1mm)$);
+%%             }
+
+%%         \end{tikzpicture}
+%%       \end{center}
+%%  \end{frame}
 
 
 
 \begin{frame}{\centering Lorentz transformation}
  % \begin{columns}
- %   \begin{column}{0.5\textwidth}
-      The transformations between two inertial reference frames moving with a velocity $v$ relative to eachoter is given by the Lorentz transformations. At t'=t=0 the origins of the two cordinates systems are the same.  
+  %   \begin{column}{0.5\textwidth}
+  
+      The transformations between two inertial reference frames moving with a relative velocity  $v$. At t'=t=0 the origins of the two cordinates systems are the same.  
       \begin{empheq}[box=\tcbhighmath]{align*}
         t'&=\gamma(t-vx/c²)\\
         x'&=\gamma(x-vt)\\
-        y'&=y\\
-        z'&=z\\
+        %y'&=y\\
+        %z'&=z\\
         \text{where}&:\\
         c&=\text{Speed of light}\\
         \gamma&=\frac{1}{\sqrt{(1-v²/c²)}}\\
@@ -257,48 +339,48 @@
     \gamma&=2\\
     x_1&=\text{Back of the carpet}\\
     x_2&=\text{Front of the carpet}\\
-    \visible<7->{ t_1&=\text{Start of flight}\\
+    \visible<5->{ t_1&=\text{Start of flight}\\
     t_2&=\text{End of flight}\\}
       \end{empheq}
     \end{column}
     \begin{column}{0.35\textwidth}
       \tiny
-      \only<4->{\begin{empheq}[box=\tcbhighmath]{align*}
+      \only<3->{\begin{empheq}[box=\tcbhighmath]{align*}
           x'_2-x'_1&=\gamma(x_2-vt_2)-\gamma(x_1-vt_1)\\
-          t_1&=t_2\\
-          \Delta x'&=\gamma\Delta x\\
+          %t_1&=t_2\\
+          %\Delta x'&=\gamma\Delta x\\
           \Delta x &=\frac{\Delta x'}{\gamma}
         \end{empheq}
       }
     \end{column}
     \begin{column}{0.35\textwidth}
       \tiny
-      \only<8,9>{
+      \only<5->{
       \begin{empheq}[box=\tcbhighmath]{align*}
         t'_2-t'_1&=\gamma(t_2-v\frac{x_2}{c^2})-\gamma(t_1-v\frac{x_1}{c^2})\\
-        x_1&=vt_1,~~~x_2=vt_2\\
-        t'_2-t'_1&=\gamma t_2(1-\frac{v^2}{c^2})-\gamma t_1(1-\frac{v^2}{c^2})\\
-        \Delta t'&=\frac{1}{\gamma}\Delta t
+       % x_1&=vt_1,~~~x_2=vt_2\\
+        %t'_2-t'_1&=\gamma t_2(1-\frac{v^2}{c^2})-\gamma t_1(1-\frac{v^2}{c^2})\\
+        \Delta t&=\gamma\Delta t'
       \end{empheq}
       }
     \end{column}
   \end{columns}
   %\begin{center}
     \begin{tikzpicture}
-      \visible<1,2,3,4,6,7,8,9>{\node at (0,3.5){\includegraphics[width=2.5cm,height=2.0cm]{fig/magic.png}};
+      \visible<1,2,3,6,7->{\node at (0,3.5){\includegraphics[width=2.5cm,height=2.0cm]{fig/magic.png}};
       }
       \visible<2,3,4->{\draw [->, black,ultra thick] (-1,4.7) -- node[above,xshift=0cm]{\textbf{0.87c}} (1,4.7);}
 
       %\visible<2>{\draw [->, black,ultra thick] (-1,4.7) -- node[above,xshift=0cm]{\textbf{0.87c}} (1,4.7);}
       \linespread{0.1}
-     \node[rectangle,draw,text centered, rounded corners,text width=2.0cm,fill=white] at (-5.5,2.5){\tiny{Flying on the magic carpet is the primed reference frame}};
+     \node[rectangle,draw,text centered, rounded corners,text width=2.0cm,fill=white] at (-5.5,2.5){\scriptsize{Flying on the magic carpet is the primed reference frame}};
       
-     \visible<5>{\node at (0,1.5){\includegraphics[width=1.0cm]{fig/streken.png}};
+     \visible<4,5>{\node at (0,1.5){\includegraphics[width=1.0cm]{fig/streken.png}};
    }
-     \visible<5>{\node at (0,3.5){\includegraphics[width=1.5cm,height=2.0cm]{fig/magic.png}};}
+     \visible<4,5>{\node at (0,3.5){\includegraphics[width=1.5cm,height=2.0cm]{fig/magic.png}};}
      
-     \visible<6,7,8,9>{\node at (0,3.65){\includegraphics[width=0.3cm]{fig/strekenOnCarpet.png}};}
-     \visible<9>{\node[rectangle,draw,text centered, rounded corners,text width=2.0cm,fill=violet!50] at (2.5,3.5){\tiny{My two hour ride was only one hour(:}};
+     \visible<6->{\node at (0,3.65){\includegraphics[width=0.3cm]{fig/strekenOnCarpet.png}};}
+     \visible<7>{\node[rectangle,draw,text centered, rounded corners,text width=2.0cm,fill=violet!10] at (2.5,3.5){\tiny{My two hour ride was only one hour(:}};
      }
   \end{tikzpicture}
   %\end{center}
@@ -354,7 +436,6 @@
       }
       
       \only<2>{
-        ~
         \includegraphics[width=\textwidth]{fig/muon.png}\\
                         {\tiny Figure by K.Bernkör}
       }
@@ -373,13 +454,15 @@
 
 \section{General relativity}
 
-\begin{frame}{Is gravity acceleration}
+\begin{frame}{Is gravity acceleration?}
   \begin{columns}
-    \begin{column}{0.5\textwidth}
+    \begin{column}{0.4\textwidth}
+      ~\vspace{1.5cm}
       \begin{itemize}
       \item{In 1907 Einstein had the ``happiest thought of his life''}
-      \item<2->{There is no difference between being in an accelerated elevator in space or being in a gravitational field}
-      \item<4->{This was a continuation of the the universality of free fall}
+        %\item<2->{There is no difference between being in an accelerated elevator in space or being in a gravitational field}
+      \item<2->{Equivalence principle}
+      \item<4->{Continuation of the the universality of free fall}
          
         %% \item{Two masses fall with the same accelration already seen by Galelio}
       %% \item{This lead Einstin to think: What if accelration is the same as gravity, would we know the difference}
@@ -388,11 +471,11 @@
       %%   \item{We only feel gravity because the earth is massiv, so we resist the free fall}
       %% \item{Yes, you would if you where 30000 m long}
       %% \item{What if gravity was only a result of a geometry}
-        \end{itemize}
+      \end{itemize}
+       ~\vspace{1.5cm}
          \end{column}
-
-    \begin{column}{0.5\textwidth}
-      %\begin{center}
+    \begin{column}{0.6\textwidth}
+      \begin{center}
         \begin{tikzpicture}
          % \node at (1,-4) {\includegraphics[width=1\textwidth]{fig/theEarth.jpg}};
 
@@ -402,6 +485,7 @@
         \def\hn{0}
         
         \only<2>{
+          \draw [draw=white,fill=white] (-2,-1) rectangle (4,5);
           \node at (1,1.2) {\includegraphics[width=0.25\textwidth]{fig/streken.png}};
           \path[lineP,green, line width=0.3cm] (-1,\hn-0.12cm)--(3,\hn-0.12cm);
           \node at (1,1.2) {\includegraphics[width=0.25\textwidth]{fig/streken.png}};
@@ -409,7 +493,7 @@
         \path[lineP] (\xn,\h)--(\x,\h);
         \path[lineP] (\x,\h)--(\x,\hn);
         \path[lineP] (\xn,\hn)--(\x,\hn);
-        %\path[lineP,green] (-1,\hn)--(3,\hn);
+        \path[lineP,green] (-1,\hn)--(3,\hn);
         \node at (2.5,0.4) {\includegraphics[width=0.07\textwidth]{fig/flower.png}};
          \node at (-0.5,0.4) {\includegraphics[width=0.17\textwidth]{fig/grass.png}};
               }
@@ -418,12 +502,12 @@
         %% \def\xn{3}
         %% \def\hn{0}
         \only<3,4>{
-        \draw [draw=black,fill=blue!30!black] (-1,-1) rectangle (4,5);
-        \draw [draw=black,fill=white] (\xn,\hn) rectangle (\x,\h);  
-        \path[lineP] (\xn,\hn)--(\xn,\h);
-        \path[lineP] (\xn,\h)--(\x,\h);
-        \path[lineP] (\x,\h)--(\x,\hn);
-        \path[lineP] (\xn,\hn)--(\x,\hn);
+          \draw [draw=black,fill=blue!30!black] (-2,-1) rectangle (4,5);
+          \draw [draw=black,fill=white] (\xn,\hn) rectangle (\x,\h);  
+          \path[lineP] (\xn,\hn)--(\xn,\h);
+          \path[lineP] (\xn,\h)--(\x,\h);
+          \path[lineP] (\x,\h)--(\x,\hn);
+          \path[lineP] (\xn,\hn)--(\x,\hn);
         \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (3,0.5) {};
         \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (2.2,1.5) {};
         \node[star, star points=5, minimum width=0.1cm,inner sep=1.8pt,anchor=outer point 3,star point ratio=5.25, fill=yellow, draw] at (-0.8,1.0) {};
@@ -435,27 +519,28 @@
 
  \filldraw[fill=yellow!70!red, draw=yellow!10!red] (0.5,0)--(0.6,-0.5)--(0.7,-0.1)--(0.8,-0.8)--(0.9,-0.1)--(1.0,-1.0)--(1.1,-0.1)--(1.2,-0.8)--(1.3,-0.1)--(1.4,-0.5)--(1.5,0);
 
-
         }
         %\draw[ultra thick] (1,2.3) circle (0.3cm);
         %\path[lineP] (0.3,1.4)--(1.0,1.8);
         %\path[lineP] (1.7,1.4)--(1.0,1.8);
         %\draw[ultra thick] (1,2.3) circle (0.3cm);
    \end{tikzpicture}
-%\end{center}
+\end{center}
     \end{column}
   \end{columns}
 \end{frame}
 
 
-\begin{frame}{Is gravity a geometrical effect}
+\begin{frame}{Is gravity a geometrical effect?}
   \begin{columns}
     \begin{column}{0.4\textwidth}
+      ~\vspace{2cm}
       \begin{itemize}
-      \item<1->{The equivalence principle is only valid locally}
-      \item<2->{Globally there is tidal forces}
+      \item<1->{The equivalence principle is only\\ valid locally}
+      \item<2->{Globally there is\\ tidal forces}
       \item<4->{Can gravity be a geometrical effect}
       \end{itemize}
+      ~\vspace{2cm}
     \end{column}
     \begin{column}{0.6\textwidth}
       \begin{center}
@@ -495,7 +580,9 @@
         \foreach \t in {0,30,60,90,120,150} { \DrawLongitudeCircle[\R]{\t} }
         }
         \only<3>{
-        \node[circle,ball color=black,shading=ball,minimum width=0.3cm] (ball2) at (1.5,-0.9) {};
+          \node[circle,ball color=black,shading=ball,minimum width=0.3cm] (ball2) at (1.5,-0.9) {};
+          
+          %\node[cylinder,rotate=0,cylinder color,color=black,minimum width=0.3cm] (ball2) at (1.5,-0.9) {};
         
         \node[circle,ball color=black,shading=ball,minimum width=0.3cm] (ball3) at (-1.5,-0.9){};
         }
@@ -517,7 +604,7 @@
 \begin{frame}{A geometrical model for gravity}
 \begin{itemize}
 \item{General relativity describes spacetime as a manifold}
-\item{A manifold can describe a space that locally is flat, but is curved on larger scale}
+\item{A manifold can describe a space that locally is flat, \\but is curved on larger scale}
 \uncover<2->{
 \item{The surface of a sphere:}
   \begin{itemize}
@@ -528,7 +615,7 @@
 \uncover<3->{
 \item{Spacetime according to general relativity}
   \begin{itemize}
-  \item{Locally it a free falling coordinate system, the weak equivalence principle holds}
+  \item{Locally it a free falling coordinate system,\\ the weak equivalence principle holds}
   \item{Curved spacetime on larger scale}
   \end{itemize}
   }
@@ -536,23 +623,20 @@
 \end{itemize}
 \end{frame}
   
-\begin{frame}{Einsteins field equations}
+\begin{frame}{Einstein's field equations}
   \begin{columns}
     \begin{column}{0.5\textwidth}
       \begin{itemize}
-      %% %\item{By describing space by this manifold, and requireing that Newtons mechanics holds for low energies the Einstein field equation was derived}
-      %% \item{Left side describes the curvature of space, only depends on the metric $g_{\mu_nu}$}
-      %% \item{The metric is the input to the geodesic equation}%, that gives the paths objects will move if no force is acting}
-      %% \item{$\Lambda$ is the cosmological constant}
-      %% \item{$T_{\mu \nu}$ is the stress-energy tensor, and describes the density and flux of energy in spacetime}
-      %% \item{Only solvable in special cases, for instance the Schwarzshild solution}
-
-           %\item{By describing space by this manifold, and requireing that Newtons mechanics holds for low energies the Einstein field equation was derived}
-      \item<1->{Left side describes the curvature of space}
-      \item<1->{Right side describes the content of space}
-      \item<2->{The metric,$g_{\mu_\nu}$, is what we want to solve for} 
-      \item<3->{The metric is the input to the geodesic equation}%, that gives the paths objects will move if no force is acting}
-      \item<4->{Only solvable in special cases, for instance the Schwarzshild solution}
+      %% \item<1->{Left side describes the curvature of space}
+      %% \item<1->{Right side describes the content of space}
+      %% \item<2->{The metric,$g_{\mu_\nu}$, is what we want to solve for} 
+      %% \item<3->{The metric is the input to the geodesic equation}%, that gives the paths objects will move if no force is acting}
+        %% \item<4->{Only solvable in special cases, for instance the Schwarzshild solution}
+        \item<1->{Curvature of space on left side}
+        \item<1->{Content of space on right side}
+        \item<2->{The metric = $g_{\mu_\nu}$} 
+        %\item<3->{The metric is the input to the geodesic equation}%, that gives the paths objects will move if no force is acting}
+        \item<4->{Only analytically solvable in special cases, for instance the Schwarzschild solution}
       \end{itemize}
     \end{column}
     \begin{column}{0.6\textwidth}
@@ -566,10 +650,10 @@
    % R=\text{Ricci curvature tensor} (f(g_{\mu_\nu})
   \end{empheq}
   \begin{empheq}[box=\tcbhighmath]{align*}
-    R_{\mu_\nu}&=\text{Ricci curvature tensor} (f(g_{\mu_\nu}))\\
-    g_{\mu_\nu}&=\text{The metric}\\
+    R_{\mu\nu}&=\text{Ricci curvature tensor} (f(g_{\mu\nu}))\\
+    g_{\mu\nu}&=\text{The metric}\\
     \Lambda&=\text{Cosmological constant}\\
-    T_{\mu \nu}&=\text{Stress-energy tensor}
+    T_{\mu\nu}&=\text{Stress-energy tensor}
   \end{empheq}
   \footnotesize
  \visible<3->{
@@ -578,7 +662,7 @@
       \begin{empheq}[box=\tcbhighmath]{align*}
         \frac{d^2x^{\mu}}{ds^2}+
         \Gamma^{\mu}_{\hphantom{\mu}\beta\alpha} \frac{d^2x^{\alpha}}{ds^2} \frac{d^2x^{\beta}}{ds^2}=0\\
-        \Gamma^{\mu}_{\hphantom{\mu}\beta\alpha}=\text{Christoffel sybol}(f(g_{\mu_\nu}))
+        \Gamma^{\mu}_{\hphantom{\mu}\beta\alpha}=\text{Christoffel symbol}(f(g_{\mu\nu}))
       \end{empheq}
       }
   \end{column}
@@ -588,7 +672,7 @@
 
 
 
-\begin{frame}{Gravitational redshift}
+\begin{frame}{Gravitational red shift}
   \begin{center}
     \begin{tikzpicture}
       \def\x{4}
@@ -638,7 +722,7 @@
 
       \filldraw[fill=yellow!70!red, draw=yellow!10!red,xshift=-0.3cm,scale=2] (0.5,0)--(0.6,-0.5)--(0.7,-0.1)--(0.8,-0.8)--(0.9,-0.1)--(1.0,-1.0)--(1.1,-0.1)--(1.2,-0.8)--(1.3,-0.1)--(1.4,-0.5)--(1.5,0);
       }
-      \only<4->\node at (1,4.0) {\footnotesize Redshift depends upon y};
+      \only<4->\node at (1.2,4.0) {\footnotesize Red shift depends upon y and g};
     \end{tikzpicture}
     \end{center}
 \end{frame}
@@ -772,40 +856,63 @@
  \end{columns}
  \end{frame}
   
-\begin{frame}{Testing the theory}
+\begin{frame}{Testing the theory 1919}
   %\begin{columns}
   %  \begin{column}{0.5\textwidth}
      \begin{itemize}
-       \item<1->{Bending of light by the sun might alter the position of stars}
+       \item<1->{Bending of light by the sun might alter the apparent position of stars}
        %\item{Only possible to see during a solor eclipse}
-       \item{Solar eclipse 1919 was the ultimate test}
+       \item<2->{Solar eclipse 1919 was the ultimate test}
     %   \end{itemize}
          %  \end{column}
          %  \begin{column}{0.5\textwidth}
          % \begin{itemize}
+         \uncover<3->{
          \item{Three possible outcome}
-         \begin{itemize}
-         \item{No bending}
-         \item{Newton bending}
-         \item{Bending of light predicted by General relativity}
-         \end{itemize}
-       \item{Turned out that GR was right}
+           \begin{itemize}
+           \item{No bending}
+           \item{Newton bending}
+           \item{Bending of light predicted by general relativity}
+           \end{itemize}
+         }
+       \item<4->{Turned out that Einstein was right}
     \end{itemize}
   %  \end{column}
   %  \end{columns}
-
-  \begin{tikzpicture}
-    \node[star, star points=5, minimum width=0.1cm,inner sep=1.0pt,anchor=outer point 3,star point ratio=3.25, fill=gray, draw] at (-1,3) {};
-    \draw [yellow] plot [smooth] coordinates {(0,0) (2,0.1) (4,1.1) (6,0.8) (10,0)};
-    \draw [yellow] (0,0) --(10,0);
+     \visible<2->{
+       \begin{tikzpicture}
+         \node[star, star points=5, minimum width=0.1cm,inner sep=1.0pt,anchor=outer point 3,star point ratio=3.25, fill=gray, draw] at (-0.1,0.75) {};
+         \node[star, star points=5, minimum width=0.1cm,inner sep=1.0pt,anchor=outer point 3,star point ratio=3.25,color=yellow, fill=yellow, draw] at (-0.1,-0.2) {};
+         
+     
+     %\draw [yellow] (0,0.25) -- (4.0,0.35)..controls(5.0,0.41)..(6.0,0.35) -- (10,0);
+    \draw [yellow] (0,0.0) -- (6.0,0.21)..controls(7.0,0.27)..(8.0,0.21) -- (10,0);
+    \draw [yellow,dashed,gray] (10,0) -- (0,0.875);
     %\draw [yellow] plot [smooth] coordinates {(0,0) (2,0.8) (4,1.1) (6,0.8) (10,0)};
-    \node at (5,0){\includegraphics[width=1cm]{fig/sun.png}};
-  \end{tikzpicture}
+      \node[circle,ball color=blue,shading=ball,minimum width=0.3cm] (ball1) at (10,0) {};
 
+    \node at (7,-0.3){\includegraphics[width=1cm]{fig/sun.png}};
+    
+  \end{tikzpicture}
+}
  \end{frame}
 
 
+\begin{frame}{Testing the theory 2015}
+  \includegraphics[width=\textwidth]{fig/LIGO}\\{\tiny
+  Photo credit: LIGO / Caltech / MIT}
+\end{frame}
 
+
+
+
+\begin{frame}{Conclusion}
+  \begin{itemize}
+  \item{Alter how we see the world}
+  \item{The equivalence principle is central}
+   \item{Well tested theory}
+  \end{itemize}
+\end{frame}
 
 \end{document}
 %% \path[lineP] (0.3,0)--(1,1);
